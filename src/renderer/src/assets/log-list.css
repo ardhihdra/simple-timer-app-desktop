@@ -1,0 +1,51 @@
+.log-container {
+  padding: 20px;
+  margin: 1rem 0;
+  max-height: 300px;
+  overflow-y: auto; /* Make the container auto scrollable */
+  background-color: #2d3748; /* Darker slate */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #ffffff; /* Lighter text color for dark mode */
+}
+
+.log {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #333333;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  color: #ffffff; /* Lighter text color for dark mode */
+}
+
+.log:hover {
+  background-color: #666666;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.start-log {
+  font-size: 14px;
+  color: #eeeeee;
+}
+
+.duration-log {
+  font-size: 14px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.note {
+  font-size: 12px;
+  color: #cccccc;
+}
